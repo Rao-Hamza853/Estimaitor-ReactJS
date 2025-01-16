@@ -26,8 +26,10 @@ const Footer = () => {
             and efficiency in real estate transactions.
           </p>
         
-        <div className="flex flex-col lg:items-center gap-y-3 pb-2">
-          <p className="text-lg text-[#17141F] font-bold">Quick Links</p>
+        <div className="flex flex-col lg:items-center pb-2">
+          <div className="flex flex-col gap-3">
+          <p className="text-lg text-[#17141F] font-bold">Quick Link</p>
+          <div className="flex flex-col gap-y-3">
           <a className="text-sm text-[#17141F]" href="">
             Home
           </a>
@@ -43,6 +45,8 @@ const Footer = () => {
           <a className="text-sm text-[#17141F]" href="">
             Signup
           </a>
+          </div>
+          </div>
         </div>
 
         <div className="flex flex-col gap-y-5">

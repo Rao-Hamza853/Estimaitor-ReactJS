@@ -1,10 +1,9 @@
 import { FaCheckCircle } from "react-icons/fa";
-import LoginBtn from "./ui/login-btn";
 import { useState } from "react";
 import GetStartBtn1 from "./ui/get-start-btn1";
 
 const Pricing = () => {
-  const[isChecked, setIsChecked] = useState(false)
+  const[isChecked, setIsChecked] = useState(true)
   return (
     <div className="bg-[#F3F6FF] h-full -mb-32 md:pt-20 md:-mt-10 lg:pt-20 lg:pb-20" id="pricing">
       <div className="flex flex-col items-center gap-y-3 md:gap-y-4 lg:gap-y-5">
@@ -21,12 +20,12 @@ const Pricing = () => {
       </div>
 
       <div className="flex justify-center gap-x-4 pt-14">
-            <p className="text-sm text-[#020817]">Annually</p>
+            <p className="text-sm text-[#020817]">Monthly</p>
             <label class="relative inline-flex items-center cursor-pointer">
               <input type="checkbox" class="sr-only peer" value="" onClick={()=> setIsChecked(!isChecked)}/>
               <div class="group peer bg-[#E2E8F0] rounded-full duration-300 w-9 h-5 ring-2 ring-gray-100 after:duration-300 after:bg-white peer-checked:after:bg-white  peer-checked:bg-[#4169E1] after:rounded-full after:absolute after:h-4 after:w-4 after:top-0.5 after:left-0.5 after:flex after:justify-center after:items-center peer-checked:after:translate-x-4 peer-hover:after:scale-95"></div>
             </label>
-            <p className="text-sm text-[#020817]">Monthly</p>
+            <p className="text-sm text-[#020817]">Annually</p>
           </div>
 
       <div className="flex flex-col justify-center items-center gap-x-12 gap-y-12 mt-12 md:flex-row md:gap-x-5 md:px-12 lg:-mt-10 lg:gap-x-8 xl:gap-x-16">
