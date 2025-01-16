@@ -17,3 +17,25 @@
         @apply text-[#000000] text-sm font-medium  rounded-md px-3.5 py-2 hover:text-[#F8FAFC] hover:bg-[#4169E1] hover:cursor-pointer
     }
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4169E1;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */
