@@ -4,7 +4,7 @@ import companyImg from '../assets/img/company-img.png'
 const Company = () => {
   return (
     <div className='bg-[#F3F6FF] pt-40  h-full'>
-      <div className="bg-blue-700 mx-6 rounded-tl-[2rem] rounded-tr-[2rem] flex justify-center   relative md:mx-11 lg:mx-16">
+      <div className="bg-blue-700 mx-6 rounded-tl-[2rem] rounded-tr-[2rem] flex justify-center relative md:mx-11 lg:mx-16">
         <img src={bgGradient} alt="Gradient" className='w-full h-full opacity-80 bg-blue-700 rounded-tl-[2rem] rounded-tr-[2rem]'/>
         <div className='flex flex-col items-center absolute bottom-0'>
             <h1 className='text-[#FFFFFF] text-sm font-normal md:text-2xl md:font-medium lg:text-4xl lg:pt-4 xl:text-5xl xl:font-semibold 2xl:pt-0'>Ready to start Estimating</h1>

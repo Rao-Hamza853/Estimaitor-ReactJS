@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="bg-[#E9EEFD] h-full flex flex-col gap-y-8 p-6 pt-10 md:px-16" id="footer">
       <div className="flex flex-col items-start gap-y-4 md:flex-row md:gap-x-14 lg:justify-between xl:gap-y-10 ">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="w-40 object-cover"/>
           <div className="flex items-center gap-3 lg:gap-5">
             <p className="text-base text-[#17141F]">Ready to get started?</p>
             <GetStartBtn2/>
