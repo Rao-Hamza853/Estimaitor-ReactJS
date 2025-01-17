@@ -7,8 +7,8 @@ import SignUpBtn1 from "./ui/signup-btn1";
 
 const Sidebar = () => {
   return (
-    <div className="bg-transparent w-full absolute top-16">
-      <div className="flex flex-col gap-y-1 w-2/5 bg-white divide-y rounded-lg float-end">
+    <div className="bg-transparent w-full absolute top-16 right-4">
+      <div className="flex flex-col gap-y-1 w-1/2 bg-white divide-y rounded-lg float-end">
         <a href="#hero">
         <div className="flex items-center gap-x-3 pt-2 px-2">
           <IoHomeOutline />
