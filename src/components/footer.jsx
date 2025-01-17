@@ -7,45 +7,48 @@ import GetStartBtn2 from "./ui/get-start-btn2";
 
 const Footer = () => {
   return (
-    <div className="bg-[#E9EEFD] h-full flex flex-col gap-y-8 p-6 pt-16 -mt-6 md:px-16" id="footer">
+    <div
+      className="bg-[#E9EEFD] h-full flex flex-col gap-y-8 p-6 pt-20 -mt-10 md:px-16"
+      id="footer"
+    >
       <div className="flex flex-col items-start gap-y-4 md:flex-row md:gap-x-14 lg:justify-between xl:gap-y-10 ">
-          <img src={logo} alt="logo" className="w-40 object-cover"/>
-          <div className="flex items-center gap-3 lg:gap-5">
-            <p className="text-base text-[#17141F]">Ready to get started?</p>
-            <GetStartBtn2/>
-          </div>
+        <img src={logo} alt="logo" className="w-40 object-cover" />
+        <div className="flex items-center gap-3 lg:gap-5">
+          <p className="text-base text-[#17141F]">Ready to get started?</p>
+          <GetStartBtn2 />
+        </div>
       </div>
-          
+
       <div className=" grid grid-cols-1 gap-y-9 lg:grid-cols-3 gap-x-5 ">
-          <p className="text-base text-[#17141F] text-justify line-clamp-2 lg:line-clamp-none">
-            The ultimate AI-powered analysis of property documents utilizes
-            natural language processing to extract key details such as
-            ownership, legal clauses, and zoning regulations. It automates the
-            review process, identifies inconsistencies, and provides
-            insights into property history and compliance, enhancing accuracy
-            and efficiency in real estate transactions.
-          </p>
-        
+        <p className="text-base text-[#17141F] text-justify line-clamp-2 lg:line-clamp-none">
+          The ultimate AI-powered analysis of property documents utilizes
+          natural language processing to extract key details such as ownership,
+          legal clauses, and zoning regulations. It automates the review
+          process, identifies inconsistencies, and provides insights into
+          property history and compliance, enhancing accuracy and efficiency in
+          real estate transactions.
+        </p>
+
         <div className="flex flex-col lg:items-center pb-2">
           <div className="flex flex-col gap-3">
-          <p className="text-lg text-[#17141F] font-bold">Quick Link</p>
-          <div className="flex flex-col gap-y-3">
-          <a className="text-sm text-[#17141F]" href="#hero">
-            Home
-          </a>
-          <a className="text-sm text-[#17141F]" href="#solutions">
-            Solution
-          </a>
-          <a className="text-sm text-[#17141F]" href="#pricing">
-            Pricing
-          </a>
-          <a className="text-sm text-[#17141F]" href="">
-            Login
-          </a>
-          <a className="text-sm text-[#17141F]" href="">
-            Signup
-          </a>
-          </div>
+            <p className="text-lg text-[#17141F] font-bold">Quick Link</p>
+            <div className="flex flex-col gap-y-3 items-start">
+              <a className="text-sm text-[#17141F]" href="#hero">
+                Home
+              </a>
+              <a className="text-sm text-[#17141F]" href="#solutions">
+                Solution
+              </a>
+              <a className="text-sm text-[#17141F]" href="#pricing">
+                Pricing
+              </a>
+              <a className="text-sm text-[#17141F]" href="">
+                Login
+              </a>
+              <a className="text-sm text-[#17141F]" href="">
+                Signup
+              </a>
+            </div>
           </div>
         </div>
 
@@ -72,7 +75,9 @@ const Footer = () => {
       </div>
 
       <div className="">
-        <p className="text-[10px] text-[#020817] text-center border-t-2 pt-7 border-[#d1d5db]">© 2025 All Rights Reserved by EstimAitor | Privacy Policy</p>
+        <p className="text-[10px] text-[#020817] text-center border-t-2 pt-7 border-[#d1d5db]">
+          © 2025 All Rights Reserved by EstimAitor | Privacy Policy
+        </p>
       </div>
     </div>
   );
