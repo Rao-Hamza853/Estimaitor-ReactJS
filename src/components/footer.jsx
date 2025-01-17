@@ -7,7 +7,7 @@ import GetStartBtn2 from "./ui/get-start-btn2";
 
 const Footer = () => {
   return (
-    <div className="bg-[#E9EEFD] h-full flex flex-col gap-y-8 p-6 pt-10 md:px-16" id="footer">
+    <div className="bg-[#E9EEFD] h-full flex flex-col gap-y-8 p-6 pt-16 -mt-6 md:px-16" id="footer">
       <div className="flex flex-col items-start gap-y-4 md:flex-row md:gap-x-14 lg:justify-between xl:gap-y-10 ">
           <img src={logo} alt="logo" className="w-40 object-cover"/>
           <div className="flex items-center gap-3 lg:gap-5">
