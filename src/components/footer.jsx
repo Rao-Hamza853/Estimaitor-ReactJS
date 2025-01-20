@@ -15,7 +15,7 @@ const Footer = () => {
         <img src={logo} alt="logo" className="w-40 object-cover" />
         <div className="flex items-center gap-3 lg:gap-5">
           <p className="text-base text-[#17141F]">Ready to get started?</p>
-          <GetStartBtn2 />
+          <GetStartBtn2 title="Get Started" />
         </div>
       </div>
 

@@ -6,7 +6,7 @@ const Benefits = () => {
     const array = Array.from({ length: 45 }, (_, index) => index);
     const array1 = Array.from({ length: 25 }, (_, index) => index);
   return (
-    <div className='bg-[#F3F6FF] pt-8 lg:pt-20 pb-24 h-full relative'>
+    <div className='bg-[#F3F5FA] pt-8 lg:pt-20 pb-24 h-full relative'>
         <img src={blueBg} alt="blue-bg"  />
         <img src={benefitCard1} alt="benefit-card1" className='w-2/5 absolute -top-2 left-3 z-20 md:left-8 lg:top-10 '/>
         <div className='absolute top-14 right-[4.5rem] space-y-2 md:space-y-5 md:top-20 md:right-44 lg:top-32 lg:right-56 xl:space-y-6 xl:top-40 xl:right-[22rem]'>

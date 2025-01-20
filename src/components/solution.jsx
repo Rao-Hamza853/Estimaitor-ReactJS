@@ -3,7 +3,7 @@ import card2 from '../assets/img/card2.png'
 import card3 from '../assets/img/card3.png'
 const Solution = () => {
   return (
-    <div className=" bg-[#F3F6FF] h-full space-y-16 pt-28 pb-20"  id="solutions">
+    <div className=" bg-[#F3F5FA] h-full space-y-16 pt-28 pb-20"  id="solutions">
       <div className='flex flex-col items-center gap-y-7'>
       <h1 className="text-[#333333] text-3xl font-bold text-center md:text-5xl">Key Features of <br/>EstimAitor Assistant</h1>
       <p className="text-[#020817] text-base text-center opacity-75 md:px-48 w-80 md:text-lg md:w-auto lg:px-32">Effortlessly create contracts in seconds. Create custom contracts in just a <br/> few clicks. Simplify and enhance efficiency with AI personalised contract <br/> with no templates</p>

@@ -5,7 +5,7 @@ import GetStartBtn1 from "./ui/get-start-btn1";
 const Pricing = () => {
   const[isChecked, setIsChecked] = useState(true)
   return (
-    <div className="bg-[#F3F6FF] h-full pt-20 -mt-20 -mb-32 md:pt-20 md:-mt-10 lg:pt-20 lg:pb-20" id="pricing">
+    <div className="bg-[#F3F5FA] h-full pt-20 -mt-20 -mb-32 md:pt-20 md:-mt-10 lg:pt-20 lg:pb-20" id="pricing">
       <div className="flex flex-col items-center gap-y-3 md:gap-y-4 lg:gap-y-5">
         <p className="text-base text-[#020817]">Pricing Plan</p>
         <h1 className="text-3xl text-[#333333] font-bold pt-2 md:text-4xl">

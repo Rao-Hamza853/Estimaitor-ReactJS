@@ -5,6 +5,7 @@ import LoginBtn from "./ui/login-btn";
 import SignUpBtn from "./ui/signup-btn";
 import { FaBars } from "react-icons/fa6";
 import { useOnClickOutside } from "../hooks/use-on-click-outside";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const menuRef = useRef(null);
@@ -38,7 +39,7 @@ const Navbar = () => {
         </ul>
         <div className="flex gap-2 xl:gap-4">
           <LoginBtn title="Login" />
-          <SignUpBtn />
+          <SignUpBtn title="Sign Up" />
         </div>
         <FaBars
           className="md:hidden lg:hidden xl:hidden"
