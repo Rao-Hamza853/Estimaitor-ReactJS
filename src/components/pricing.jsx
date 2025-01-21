@@ -1,6 +1,7 @@
 import { FaCheckCircle } from "react-icons/fa";
 import { useState } from "react";
 import GetStartBtn1 from "./ui/get-start-btn1";
+import { Link } from "react-router";
 
 const Pricing = () => {
   const[isChecked, setIsChecked] = useState(true)
@@ -57,7 +58,7 @@ const Pricing = () => {
               <p className="text-base text-[#020817]">Custom AI Coding</p>
             </div>
           </div>
-          <GetStartBtn1/>
+          <Link to="/bill"><GetStartBtn1/></Link>
           <p className="text-xs text-[#FFFFFF] bg-[#4169E1] px-3 py-1 rounded-xl absolute -top-3">
             Perfect for Commercial Use
           </p>
@@ -93,7 +94,7 @@ const Pricing = () => {
                 <p className="text-base text-[#020817]">Custom AI Coding</p>
               </div>
             </div>
-            <GetStartBtn1/>
+            <Link to="/bill"><GetStartBtn1/></Link>
             <p className="text-xs text-[#FFFFFF] bg-[#4169E1] px-3 py-1 rounded-xl absolute -top-3">
               Perfect for Commercial Use
             </p>
@@ -127,7 +128,7 @@ const Pricing = () => {
               <p className="text-base text-[#020817]">Custom AI Coding</p>
             </div>
           </div>
-          <GetStartBtn1/>
+          <Link to="/bill"><GetStartBtn1/></Link>
         </div>
       </div>
     </div>

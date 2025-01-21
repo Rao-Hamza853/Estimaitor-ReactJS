@@ -6,6 +6,8 @@ import { LiaEditSolid } from "react-icons/lia";
 import { LuCircleArrowOutUpRight } from "react-icons/lu";
 import { FaCheckCircle } from "react-icons/fa";
 import { useState } from 'react';
+import UpdatePlanBtn from './ui/update-plan-btn';
+import UpdatePlanBtn1 from './ui/update-plan-btn1';
 
 const Bills = () => {
   const [isCheck, setIsCheck] = useState(false)
@@ -35,7 +37,7 @@ const Bills = () => {
             <div className='bg-[#0358A0] aspect-square w-8 px-1 flex justify-center items-center rounded-lg'>
               <img src={visaLogo} alt="visa-logo" />
             </div>
-            <p className='text-xl text-black opacity-70 md:pr-12'>4242 **** **** 5816</p>
+            <p className='text-base text-black opacity-70 md:pr-12 lg:text-lg'>4242 **** **** 5816</p>
             <DefaultBtn/>
           </div>
           <p className='text-lg text-[#4169E1] cursor-pointer'>+ Add Payment Method</p>
@@ -44,8 +46,8 @@ const Bills = () => {
         <div className='space-y-4 md:space-y-6'>
           <p className='text-xl text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4'>BILLING AND SHIPPING INFORMATION</p>
             <div className='flex items-center gap-x-6 md:gap-x-12'>
-              <p className='text-xl text-black opacity-50'>Email</p>
-              <p className='text-lg text-black opacity-90'>user@email.com</p>
+              <p className='text-lg text-black opacity-50 lg:text-xl'>Email</p>
+              <p className='text-base text-black opacity-90 lg:text-lg'>user@email.com</p>
             </div>
             <div className='flex items-center gap-x-2'>
             <LiaEditSolid className='text-xl text-[#4169E1]'/>
@@ -53,7 +55,7 @@ const Bills = () => {
           </div>
         </div>
 
-        {/* <div className='space-y-6'>
+        <div className='space-y-6'>
          <p className='text-xl text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4'>INVOICE HISTORY</p>
           <div className='flex items-center gap-x-40'>
             <div className='flex items-center gap-x-2'>
@@ -91,11 +93,14 @@ const Bills = () => {
             <button className='px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]'>Active</button>
             <p className='text-xl text-black opacity-70'>Starter Price</p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className='space-y-3 pb-20'>
-          <p className='text-xl text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4 mb-6'>AVAILABLE PLANS</p>
-          <div className='bg-[#F2F5FF] flex items-center gap-x-6 p-8 rounded-2xl mt-'>
+        <div className='space-y-2 md:space-y-3 pb-14 lg:pb-20'>
+          <div className='flex items-start justify-between'>
+            <p className='text-xl text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4 mb-3 lg:mb-7'>AVAILABLE PLANS</p>
+            <UpdatePlanBtn/>
+          </div>
+          <div className='bg-[#F2F5FF] flex items-center gap-x-6 p-4 rounded-2xl lg:p-8'>
             <div onClick={()=>setIsCheck(!isCheck)} className='size-8 bg-white rounded-full border-1 border-[#DADADA]'>
               {isCheck ? <FaCheckCircle className='size-8 text-[#4169E1]' /> : null}
             </div>
@@ -104,7 +109,7 @@ const Bills = () => {
               <p className='text-sm text-[#000000] opacity-70'>Free</p>
             </div>
           </div>
-          <div className='bg-[#F2F5FF] flex items-center gap-x-6 p-8 rounded-2xl'>
+          <div className='bg-[#F2F5FF] flex items-center gap-x-6 p-4 rounded-2xl lg:p-8'>
             <div onClick={()=>setIsCheck1(!isCheck1)} className='size-8 bg-white rounded-full border-1 border-[#DADADA]'>
               {isCheck1 ? <FaCheckCircle className='size-8 text-[#4169E1] '/> : null}
             </div>
@@ -113,7 +118,8 @@ const Bills = () => {
               <p className='text-sm text-[#000000] opacity-70'>$39.90 / Per Month</p>
             </div>
           </div>
-        </div> */}
+          <UpdatePlanBtn1/>
+        </div>
       </div>
     </div>
   )
