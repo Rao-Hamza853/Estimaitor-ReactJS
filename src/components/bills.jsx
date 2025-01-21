@@ -40,7 +40,7 @@ const Bills = () => {
             <p className='text-base text-black opacity-70 md:pr-12 lg:text-lg'>4242 **** **** 5816</p>
             <DefaultBtn/>
           </div>
-          <p className='text-lg text-[#4169E1] cursor-pointer'>+ Add Payment Method</p>
+          <p className='text-base text-[#4169E1] lg:text-lg cursor-pointer'>+ Add Payment Method</p>
         </div>
 
         <div className='space-y-4 md:space-y-6'>
@@ -51,7 +51,7 @@ const Bills = () => {
             </div>
             <div className='flex items-center gap-x-2'>
             <LiaEditSolid className='text-xl text-[#4169E1]'/>
-            <p className='text-lg text-[#4169E1]'>Update Information</p>
+            <p className='text-base text-[#4169E1] lg:text-lg'>Update Information</p>
           </div>
         </div>
 

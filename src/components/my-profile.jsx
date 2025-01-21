@@ -15,9 +15,9 @@ const MyProfile = () => {
             </div>
         </div>
 
-        <div className="flex items-center border rounded-3xl">
-            <img src={profilePic1} alt="profile-pic" className="size-24 -mb-7 lg:-mb-11 -mt-0 lg:-mt-2 -ml-2 "/>
-            <div className="lg:space-y-2">
+        <div className="flex flex-col gap-y- border rounded-3xl px-5 pt-1 pb-3 md:flex-row ">
+            <img src={profilePic1} alt="profile-pic" className="size-24 -mb- lg:-mb-11 -mt-0 lg:-mt-2 -ml-5 lg:-ml-2 "/>
+            <div className="md:space-y-2">
                 <h3 className="text-lg text-[#333333] font-semibold md:text-2xl">Adela Parkson</h3>
                 <p className="text-sm text-black opacity-70 lg:text-base">adelaparkson@gmail.com</p>
                 <div className="flex items-center">
