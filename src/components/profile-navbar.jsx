@@ -19,7 +19,7 @@ const ProfileNavbar = () => {
         </div> */}
         {/* <div className="w-[2px] h-5 bg-[#D9D9D9] rounded-xl opacity-70"></div> */}
         <div className="flex items-center gap-x-1.5 cursor-pointer relative group">
-          <img src={profilePic} alt="profile-pic" className="size-7 lg:size-auto"/>
+          <img src={profilePic} alt="profile-pic" className="size-8 lg:size-auto"/>
           <h2 className="text-lg text-[#333333] font-semibold hidden md:block">
             Adela Parkson
           </h2>
