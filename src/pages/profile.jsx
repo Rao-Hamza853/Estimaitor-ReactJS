@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import MyProfile from '../components/my-profile'
 import ProfileNavbar from '../components/profile-navbar'
 

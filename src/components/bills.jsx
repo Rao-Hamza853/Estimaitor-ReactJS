@@ -16,12 +16,12 @@ const Bills = () => {
     <div className="bg-[#F3F5FA] pt-24 p-6 md:p-10 md:pt-28 lg:p-16 lg:pt-28">
       <div className="bg-white py-7 px-8 space-y-14 rounded-3xl lg:py-10 lg:px-16">
         <div className="space-y-4 md:space-y-6">
-          <p className="text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4">
+          <p className="text-lg md:text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4">
             CURRENT PLAN
           </p>
           <div className="flex flex-col gap-3 md:justify-between md:flex-row">
             <div className="space-y-2">
-              <h1 className="text-3xl text-[#333333] font-semibold">
+              <h1 className="text-2xl md:text-3xl text-[#333333] font-semibold">
                 Starter Price
               </h1>
               <p className="text-base text-black opacity-70">
@@ -39,7 +39,7 @@ const Bills = () => {
         </div>
 
         <div className="space-y-4 md:space-y-6">
-          <p className="text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4">
+          <p className="text-lg md:text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4">
             PAYMENT METHOD
           </p>
           <div className="flex items-center gap-x-4">
@@ -51,13 +51,13 @@ const Bills = () => {
             </p>
             <DefaultBtn />
           </div>
-          <p className="text-base text-[#4169E1] lg:text-lg cursor-pointer">
+          <p className="text-sm md:text-base text-[#4169E1] lg:text-lg cursor-pointer">
             + Add Payment Method
           </p>
         </div>
 
         <div className="space-y-4 md:space-y-6">
-          <p className="text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4">
+          <p className="text-lg md:text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4">
             BILLING AND SHIPPING INFORMATION
           </p>
           <div className="flex items-center gap-x-6 md:gap-x-12">
@@ -68,67 +68,67 @@ const Bills = () => {
           </div>
           <div className="flex items-center gap-x-2">
             <LiaEditSolid className="text-xl text-[#4169E1]" />
-            <p className="text-base text-[#4169E1] lg:text-lg">
+            <p className="text-sm md:text-base text-[#4169E1] lg:text-lg">
               Update Information
             </p>
           </div>
         </div>
 
         <div className="space-y-6">
-          <p className="text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4">
+          <p className="text-lg md:text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4">
             INVOICE HISTORY
           </p>
           <div className="space-y-6 overflow-x-auto">
             <div className="flex items-center gap-x-14 md:gap-x-[4.7rem] lg:gap-x-28 2xl:gap-x-36">
               <div className="flex items-center md:gap-x-2">
-                <p className="text-xl text-black opacity-70 w-32 md:w-auto">Dec 01, 2021</p>
+                <p className="text-lg md:text-xl text-black opacity-70 w-32 md:w-auto">Dec 01, 2021</p>
                 <LuCircleArrowOutUpRight className="text-black opacity-70" />
               </div>
-              <p className="text-xl text-black opacity-70">$50.00</p>
+              <p className="text-lg md:text-xl text-black opacity-70">$50.00</p>
               <button className="px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]">
                 Active
               </button>
-              <p className="text-xl text-black opacity-70">Starter Price</p>
+              <p className="text-lg md:text-xl text-black opacity-70">Starter Price</p>
             </div>
             <div className="flex items-center gap-x-14 md:gap-x-[4.7rem] lg:gap-x-28 2xl:gap-x-36">
               <div className="flex items-center md:gap-x-2">
-                <p className="text-xl text-black opacity-70 w-32 md:w-auto">Dec 01, 2021</p>
+                <p className="text-lg md:text-xl text-black opacity-70 w-32 md:w-auto">Dec 01, 2021</p>
                 <LuCircleArrowOutUpRight className="text-black opacity-70" />
               </div>
-              <p className="text-xl text-black opacity-70">$50.00</p>
+              <p className="text-lg md:text-xl text-black opacity-70">$50.00</p>
               <button className="px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]">
                 Active
               </button>
-              <p className="text-xl text-black opacity-70">Starter Price</p>
+              <p className="text-lg md:text-xl text-black opacity-70">Starter Price</p>
             </div>
             <div className="flex items-center gap-x-14 md:gap-x-[4.7rem] lg:gap-x-28 2xl:gap-x-36">
               <div className="flex items-center md:gap-x-2">
-                <p className="text-xl text-black opacity-70 w-32 md:w-auto">Dec 01, 2021</p>
+                <p className="text-lg md:text-xl text-black opacity-70 w-32 md:w-auto">Dec 01, 2021</p>
                 <LuCircleArrowOutUpRight className="text-black opacity-70" />
               </div>
-              <p className="text-xl text-black opacity-70">$50.00</p>
+              <p className="text-lg md:text-xl text-black opacity-70">$50.00</p>
               <button className="px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]">
                 Active
               </button>
-              <p className="text-xl text-black opacity-70">Starter Price</p>
+              <p className="text-lg md:text-xl text-black opacity-70">Starter Price</p>
             </div>
             <div className="flex items-center gap-x-14 md:gap-x-[4.7rem] lg:gap-x-28 2xl:gap-x-36">
               <div className="flex items-center md:gap-x-2">
-                <p className="text-xl text-black opacity-70 w-32 md:w-auto">Dec 01, 2021</p>
+                <p className="text-lg md:text-xl text-black opacity-70 w-32 md:w-auto">Dec 01, 2021</p>
                 <LuCircleArrowOutUpRight className="text-black opacity-70" />
               </div>
-              <p className="text-xl text-black opacity-70">$50.00</p>
+              <p className="text-lg md:text-xl text-black opacity-70">$50.00</p>
               <button className="px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]">
                 Active
               </button>
-              <p className="text-xl text-black opacity-70">Starter Price</p>
+              <p className="text-lg md:text-xl text-black opacity-70">Starter Price</p>
             </div>
           </div>
         </div>
 
         <div className="space-y-2 md:space-y-3 pb-5 md:pb-7 lg:pb-9">
           <div className="flex items-start justify-between">
-            <p className="text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4 mb-3 lg:mb-7">
+            <p className="text-lg md:text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4 mb-3 lg:mb-7">
               AVAILABLE PLANS
             </p>
             <UpdatePlanBtn />
@@ -143,7 +143,7 @@ const Bills = () => {
               ) : null}
             </div>
             <div className="space-y-1">
-              <h2 className="text-xl text-[#333333] font-semibold">
+              <h2 className="text-lg md:text-xl text-[#333333] font-semibold">
                 Monthly Plan
               </h2>
               <p className="text-sm text-[#000000] opacity-70">Free</p>
@@ -159,7 +159,7 @@ const Bills = () => {
               ) : null}
             </div>
             <div className="space-y-1">
-              <h2 className="text-xl text-[#333333] font-semibold">
+              <h2 className="text-lg md:text-xl text-[#333333] font-semibold">
                 Yearly Plan
               </h2>
               <p className="text-sm text-[#000000] opacity-70">
