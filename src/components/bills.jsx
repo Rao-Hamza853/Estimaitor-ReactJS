@@ -126,7 +126,7 @@ const Bills = () => {
           </div>
         </div>
 
-        <div className="space-y-2 md:space-y-3 pb-14 lg:pb-20">
+        <div className="space-y-2 md:space-y-3 pb-5 md:pb-7 lg:pb-9">
           <div className="flex items-start justify-between">
             <p className="text-[22px] text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4 mb-3 lg:mb-7">
               AVAILABLE PLANS

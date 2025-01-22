@@ -7,7 +7,7 @@ import { Link } from "react-router";
 const BillNavbar = () => {
   return (
     <div className="flex items-center justify-between bg-[#f9fbff8f] fixed top-0 w-full px-6 h-16  backdrop-blur-sm z-30 md:px-10 lg:p-3 lg:px-16">
-      <img src={logo} alt="logo" className="w-32 h-auto md:w-48 lg:w-auto" />
+      <Link to="/"><img src={logo} alt="logo" className="w-32 h-auto md:w-48 lg:w-auto" /></Link>
 
       <div className="flex gap-2 xl:gap-4 items-center px-2 py-2">
         <div className="flex items-center gap-x-1.5 cursor-pointer relative group">

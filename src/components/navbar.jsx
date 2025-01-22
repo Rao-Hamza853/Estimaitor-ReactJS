@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="flex items-center justify-between bg-[#f9fbff8f] fixed top-0 w-full px-6 h-16  backdrop-blur-sm z-30 lg:p-3 lg:px-16 ">
-        <img src={logo} alt="logo" className="w-32 h-auto md:w-48 lg:w-auto" />
+        <Link to="/"><img src={logo} alt="logo" className="w-32 h-auto md:w-48 lg:w-auto" /></Link>
         <ul className="hidden md:flex lg:flex lg:gap-5 xl:gap-14">
           <li>
             <a className="li-style" href="#hero">
