@@ -71,38 +71,39 @@ const MyProfile = () => {
           </div>
         </div>
 
-        {/* <div className="space-y-5 md:space-y- border rounded-3xl px-6 py-4 md:px-9 md:py-8"> 
+        <div className=" md:space-y- border rounded-3xl px-6 py-4 md:px-9 md:py-8"> 
           <h2 className="text-lg text-[#333333] font-semibold md:text-2xl mb-8">Billing History</h2>
-          <div className="grid grid-cols-4 gap-36 p-4 bg-[#F2F5FF] border border-[#E5E8F2] rounded-xl">
+          <div className="grid grid-cols-4 gap-32 md:gap-56 lg:gap-32 2xl:gap-40 3xl:gap-44 p-4 bg-[#F2F5FF] border border-[#E5E8F2] rounded-xl ">
             <p className="text-sm text-black opacity-50">Invoice</p>
-            <p className="text-sm text-black opacity-50">Date</p>
-            <p className="text-sm text-black opacity-50">Status</p>
+            <p className="text-sm text-black opacity-50 hidden lg:block">Date</p>
+            <p className="text-sm text-black opacity-50 hidden md:block pl-0 md:pl-5 lg:pl-0">Status</p>
             <p className="text-sm text-black opacity-50">Download</p>
-          </div>
-          <div>
+          </div>      
             {
               billingHistory.map((item) => (
-                <div className="grid grid-cols-4 gap-28 justify-between px-4 py-6 border-b">
+                <div className="flex justify-between pl-3 pr-5 md:pr-6 xl:px-4 2xl:px-2 3xl:px-4 py-4 md:py-5 border-b">
                     <div className="flex items-center gap-1">
-                      <AiFillFileText />
+                      <AiFillFileText className="text-lg"/>
                       <p className="text-base text-black opacity-70 font-medium">{item.inviceNo}</p>
                     </div>
-                    <p className="text-base text-black opacity-70 font-medium">{item.date}</p>
-                    <div className="flex items-center gap-1">
+                    <div className="hidden lg:flex items-center">
+                      <p className="text-base text-black opacity-70 font-medium">{item.date}</p>
+                    </div>
+                    <div className="hidden md:flex items-center gap-2 bg-[#E8EDFB] py-2 px-2 rounded-lg">
                       <FaCheckCircle className=' text-[#4169E1]' />
                       <p className="text-base text-black opacity-70 font-medium">Completed</p>
                     </div>
-                    <div className="flex items-center gap-1">
-                      <RxDownload />
-                      <p className="text-base text-black opacity-70 font-medium">Download PDF</p>
+                    <div className="flex items-center gap-1 bg-[#F5F5F5] py-2 px-2 rounded-lg cursor-pointer">
+                      <RxDownload  className="text-lg"/>
+                      <p className="text-base text-black opacity-70 font-medium hidden 2xl:block">Download PDF</p>
                     </div>
                 </div>
                 
               ))
             }
-          </div>
-        </div> */}
+        </div>
       </div>
+      <p className="text-[10px] text-[#17141F] text-center mt-7 md:mt-9 md:-mb-2 lg:mt-10 lg:-mb-6">© 2024 All Rights Reserved by EstimAitor  |  Privacy Policy</p>
     </div>
   )
 }

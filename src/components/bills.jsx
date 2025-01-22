@@ -55,9 +55,9 @@ const Bills = () => {
           </div>
         </div>
 
-        {/* <div className='space-y-6'>
+        <div className='space-y-6 overflow-x-auto'>
          <p className='text-xl text-black opacity-70 font-[450] border-b border-[#E6EAF9] pb-4'>INVOICE HISTORY</p>
-          <div className='flex items-center gap-x-40'>
+          <div className='flex items-center gap-x-20 lg:gap-x-40'>
             <div className='flex items-center gap-x-2'>
               <p className='text-xl text-black opacity-70'>Dec 01, 2021</p>
               <LuCircleArrowOutUpRight className='text-black opacity-70'/>
@@ -66,7 +66,7 @@ const Bills = () => {
             <button className='px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]'>Active</button>
             <p className='text-xl text-black opacity-70'>Starter Price</p>
           </div>
-          <div className='flex items-center gap-x-40'>
+          <div className='flex items-center gap-x-20 lg:gap-x-40'>
             <div className='flex items-center gap-x-2'>
               <p className='text-xl text-black opacity-70'>Dec 01, 2021</p>
               <LuCircleArrowOutUpRight className='text-black opacity-70'/>
@@ -75,7 +75,7 @@ const Bills = () => {
             <button className='px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]'>Active</button>
             <p className='text-xl text-black opacity-70'>Starter Price</p>
           </div>
-          <div className='flex items-center gap-x-40'>
+          <div className='flex items-center gap-x-20 lg:gap-x-40'>
             <div className='flex items-center gap-x-2'>
               <p className='text-xl text-black opacity-70'>Dec 01, 2021</p>
               <LuCircleArrowOutUpRight className='text-black opacity-70'/>
@@ -84,7 +84,7 @@ const Bills = () => {
             <button className='px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]'>Active</button>
             <p className='text-xl text-black opacity-70'>Starter Price</p>
           </div>
-          <div className='flex items-center gap-x-40'>
+          <div className='flex items-center gap-x-20 lg:gap-x-40'>
             <div className='flex items-center gap-x-2'>
               <p className='text-xl text-black opacity-70'>Dec 01, 2021</p>
               <LuCircleArrowOutUpRight className='text-black opacity-70'/>
@@ -93,7 +93,7 @@ const Bills = () => {
             <button className='px-2.5 py-1 text-[#4169E1] text-sm bg-[#D9E1F9] rounded-md hover:bg-[#c9d1e8]'>Active</button>
             <p className='text-xl text-black opacity-70'>Starter Price</p>
           </div>
-        </div> */}
+        </div>
 
         <div className='space-y-2 md:space-y-3 pb-14 lg:pb-20'>
           <div className='flex items-start justify-between'>
