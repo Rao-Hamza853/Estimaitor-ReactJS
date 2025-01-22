@@ -8,21 +8,21 @@ const Solution = () => {
       <h1 className="text-[#333333] text-3xl font-bold text-center md:text-5xl">Key Features of <br/>EstimAitor Assistant</h1>
       <p className="text-[#020817] text-base text-center opacity-75 md:px-48 w-80 md:text-lg md:w-auto lg:px-32">Effortlessly create contracts in seconds. Create custom contracts in just a <br/> few clicks. Simplify and enhance efficiency with AI personalised contract <br/> with no templates</p>
       </div>
-      <div className='flex flex-col items-center justify-center md:flex-row md:items-end md:justify-center md:gap-9 lg:gap-12'>
+      <div className='flex flex-col items-center justify-center md:flex-row md:items-end md:justify-center gap-10 md:gap-9 lg:gap-12'>
         <div className='w-auto space-y-5 md:w-[24%]  xl:w-[27%] hover:scale-105 transition-transform duration-200'>
-            <img src={card1} alt="card1" />
+            <img src={card1} alt="card1" className='-mb-8 md:-mb-0'/>
             <h1 className='text-2xl text-[#333333] font-bold md:pl-5 text-center md:text-left lg:text-3xl lg:w-36 xl:w-auto'>Core <span className='text-[#4169E1]'> Planning </span></h1>
             <p className='text-base text-[#020817] px-8 md:pl-4 text-center md:text-left lg:text-lg'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consut.</p>
             <p className='text-base font-semibold text-[#4169E1] pl-5 text-center md:text-left lg:text-lg cursor-pointer'>Learn More &gt;</p>
         </div>
         <div className='w-auto space-y-5 md:w-[24%] xl:w-[26%] hover:scale-105 transition-transform duration-200'>
-            <img src={card2} alt="card2" />
+            <img src={card2} alt="card2" className='-mb-8 md:-mb-0'/>
             <h1 className='text-2xl text-[#333333] font-bold md:pl-7 text-center md:text-left lg:text-3xl'>Traditional <span className='text-[#4169E1]'> Designs </span></h1>
             <p className='text-base text-[#020817] px-8 md:pl-5 text-center md:text-left lg:text-lg'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consut.</p>
             <p className='text-base font-semibold text-[#4169E1] pl-5 text-center md:text-left lg:text-lg cursor-pointer'>Learn More &gt;</p>
         </div>
         <div className='w-auto space-y-5 md:w-[24%] xl:w-[26%] hover:scale-105 transition-transform duration-200'>
-            <img src={card3} alt="card3" />
+            <img src={card3} alt="card3" className='-mb-8 md:-mb-0'/>
             <h1 className='text-2xl text-[#333333] font-bold md:pl-7 text-center md:text-left lg:text-3xl'>Quality <span className='text-[#4169E1]'> Materials </span></h1>
             <p className='text-base text-[#020817] px-8 md:pl-5 text-center md:text-left lg:text-lg'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consut.</p>
             <p className='text-base font-semibold text-[#4169E1] pl-5 text-center md:text-left lg:text-lg cursor-pointer'>Learn More &gt;</p>
